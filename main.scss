@@ -1,0 +1,148 @@
+.nav-link {
+   color: black;
+}
+
+.bd-example-tabs {
+   margin-top: 80px;
+   margin-left: 20px;
+}
+
+.row {
+   margin-right: 0;
+}
+
+.bootstrap-nav {
+   @media screen and (max-width: 380px) {
+      padding: 0;
+   }
+}
+
+.projects-wrapper {
+   @media screen and (max-width: 800px) {
+      display: flex;
+      flex-direction: column;
+   }
+}
+
+.content, .col-8 {
+   @media screen and (max-width: 800px) {
+      max-width: 100%;
+      padding: 0 0 0 15px;
+   }
+
+   @media screen and (max-width: 380px) {
+      max-width: 100%;
+      padding: 0;
+   }
+
+   padding: 0;
+}
+
+
+.tab-pane {
+   width: 100%;
+   margin-left: 0;
+
+   @media screen and (max-width: 1211px) {
+      width: 90%;
+   }
+   @media screen and (max-width: 1082px) {
+      width: 80%;
+      margin-left: 90px;
+   }
+   @media screen and (max-width: 800px) {
+      width: 100%;
+      margin-left: 0;
+   }
+}
+
+.tile-wrapper {
+   width: 100%;
+   flex-wrap: wrap;
+
+   @media screen and (max-width: 800px) {
+      width: 700px;
+      margin-bottom: 40px;
+   }
+
+   @media screen and (max-width: 710px) {
+      width: 600px;
+   }
+   @media screen and (max-width: 610px) {
+      width: 500px;
+   }
+   @media screen and (max-width: 510px) {
+      width: 400px;
+   }
+   @media screen and (max-width: 410px) {
+      width: 330px;
+   }
+}
+
+.nav-pills {
+   width: 320px;
+   
+   @media screen and (max-width: 800px) {
+      width: 700px;
+      margin-bottom: 40px;
+      text-align: center;
+   }
+   @media screen and (max-width: 710px) {
+      width: 600px;
+   }
+   @media screen and (max-width: 610px) {
+      width: 500px;
+   }
+   @media screen and (max-width: 510px) {
+      width: 400px;
+   }
+   @media screen and (max-width: 410px) {
+      width: 330px;
+   }
+}
+
+.project__tile {
+   width: 300px;
+   height: 250px;
+   margin-top: 30px;
+   margin-left: 50px;
+
+   &:last-child {
+      margin-bottom: 60px;
+   }
+
+   @media screen and (max-width: 800px) {
+      margin: 30px auto 0 auto;
+   }
+
+   @media screen and (max-width: 600px) {
+      width: 500px;
+      height: auto;
+   }
+}
+
+.tile__img {
+   width: 100%;
+   height: auto;
+}
+
+.tile__img--czytania {
+   height: 200px;
+}
+
+.czytania {
+   margin-bottom: 60px;
+}
+
+.tile__title {
+   width: 100%;
+   height: 50px;
+   background-color: lighten(#007BFF,10);
+   color: white;
+   font-size: 18px;
+   border-radius: 0 0 10px 10px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
